@@ -1,0 +1,190 @@
+*{
+    box-sizing:border-box;
+}
+
+/* google nav bar link to the image and advanced search */
+.google-navbar{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:25px;
+}
+
+/* google nav bar link to the image and search search for the advanced search  */
+.google-navbar-advanced{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap:25px;
+}
+
+/* unvisited link */
+a:link{
+    color:black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited{
+    color:black;
+}
+
+/* Mouse over link */
+a:hover{
+    color:black;
+}
+
+/* selected link */
+a:active{
+    color:black;
+}
+
+/* Main Content */
+.google-main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Google Image */
+.google-image{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    margin-top:10%;
+}
+
+/* label for the google image as "images"  */
+.google-image label{
+    color:#4285F4;
+    margin-top:-15px;
+    margin-left:75%;
+}
+
+/* div for the search module */
+.google-searchmodel{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:20px;
+    gap:25px;
+}
+
+/* search bar round module design */
+.google-search-bar{
+    width:100%;
+    max-width: 700px;
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 24px;
+    padding:10px 20px;
+    height:44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    margin:0 auto;
+    width: calc(632px + 6px);
+    width:584px;
+    max-width:584px;
+}
+
+/* search bar design while hovering it */
+.google-search-bar:hover{
+    border-color:grey;
+}
+
+/* inside the round module input  */
+.google-search{
+    background:transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    padding:24px 20px;
+    font-size:14px;
+    color:black;
+}
+
+/* input's div button module */
+.google-search-button{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+/* submit button design */
+.google-submit-button{
+    background-color: #f8f9fa;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family:Roboto,arial,sans-serif;
+    font-size:14px;
+    margin:11px 4px;
+    padding:0 16px;
+    line-height:27px;
+    height: 36px;
+    width:auto;
+    min-width:54px;
+    text-align:center;
+    cursor:pointer;
+    user-select: none;
+}
+
+/* while hovering the search button */
+.google-submit-button:hover{
+    border-color: grey;
+}
+
+/* for the label in the advanced search */
+.p-advanced{
+    color:#d93025;
+    font-size:20px;
+    margin:25px 35px;
+    margin-left:8%;
+}
+
+/* hr tag = div */
+.line{
+    border-bottom: 1px solid #ebebeb; 
+}
+
+/*  same as the label in the advanced */
+.h2-advanced{
+    font-size:16px;
+    color:#333;
+}
+
+/* advanced pages start */
+.google-advanced-search{
+    margin:50px;
+}
+
+.advanced-search{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:30px;
+    margin-bottom:10px;
+}
+
+.advanced-right{
+}
+
+.advanced-left{
+    width:200px;
+}
+
+input{
+    width:385px;
+}
+
+label{
+    font-size:14px;
+    vertical-align: middle;
+}

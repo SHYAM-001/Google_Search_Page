@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Search</title>
+    <link rel="icon" type="image/png" href="https://toppng.com/uploads/preview/google-favicon-vector-11573977012mieoxurfqx.png"/>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul class="google-navbar">
+                    <li><a href="index.html">Search</a></li>
+                    <li><a href="advancedsearch.html">Advanced Search</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="google-main">
+        <div class="google-image">
+            <img width=272 height=92 src="https://images.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google Search">
+            <label class="google-image-label">images</label>
+        </div>
+        <form action="https://www.google.com/search">
+            <input type="hidden" name="tbm" value="isch">
+            <div class="google-searchmodel">
+                <div class="google-search-bar">
+                    <img src="https://purepng.com/public/uploads/medium/search-icon-sl7.png" alt="" width=20px height=20px>
+                    <input class="google-search" type="text" name="q">
+                </div>
+            <input class="google-submit-button" type="submit" value="Google Images">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
